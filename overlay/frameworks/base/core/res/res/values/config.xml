@@ -213,7 +213,7 @@
             16 - App switch
          For example, a device with Home, Back and Menu keys would set this
          config to 7.  -->
-    <integer name="config_deviceHardwareKeys">7</integer>
+    <integer name="config_deviceHardwareKeys">19</integer>
 
     <!-- empty string to disable, or like: /sys/kernel/fast_charge/force_fast_charge
          it is disabled by default so devices need to add an overlay to enable-->
@@ -247,7 +247,7 @@
          rotations as the default behavior. -->
     <bool name="config_allowAllRotations">true</bool>
     
-    <!-- Allow changing button backlight brightness in Settings -->
+    <!-- Allow changing button backlight brightness in Settings
     <integer name="config_buttonBrightnessSettingDefault">140</integer>
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool> -->
 </resources>
